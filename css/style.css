@@ -1,0 +1,130 @@
+/* 基础样式：先让它像个页面，手机适配下一条提交再做 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  background: #f5f7fa;
+  color: #26303a;
+  line-height: 1.7;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1f3a5f, #2e5e8c);
+  color: #fff;
+  padding: 48px 24px;
+}
+
+.hero-inner {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #fff;
+  color: #1f3a5f;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #c9d8e8;
+  font-size: 14px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #e6eef7;
+}
+
+main {
+  width: 900px;
+  margin: 32px auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(31, 58, 95, 0.06);
+}
+
+.card h2 {
+  font-size: 19px;
+  color: #1f3a5f;
+  padding-left: 12px;
+  border-left: 4px solid #2e5e8c;
+  margin-bottom: 16px;
+}
+
+.card p {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.goals {
+  list-style: none;
+}
+
+.goals li {
+  padding: 8px 0;
+  font-size: 15px;
+  border-bottom: 1px dashed #e3e9f0;
+}
+
+.goals li:last-child {
+  border-bottom: none;
+}
+
+.num {
+  display: inline-block;
+  width: 32px;
+  color: #2e5e8c;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: #1f3a5f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #2e5e8c;
+}
+
+footer {
+  text-align: center;
+  color: #8b9bab;
+  font-size: 13px;
+  padding: 32px 0;
+}
