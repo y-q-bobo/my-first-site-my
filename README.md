@@ -4,28 +4,65 @@
 
 ## 这是什么
 
-天津理工大学中环信息学院软件工程大一学生的个人主页，也是我 8 周计划里第 1 周的交付物。
+天津理工大学中环信息学院软件工程大一学生的个人主页，也是 8 周计划里第 1 周的交付物。
 
 ## 怎么打开
 
-直接用浏览器打开 `index.html`；或访问 GitHub Pages。
+- 本地：双击 `index.html`
+- 线上：推到 GitHub 并开启 Pages 后，访问 `https://<你的用户名>.github.io/my-first-site/`
 
 ## 目录
 
 ```
 my-first-site/
-├── index.html      页面结构
-├── css/style.css   样式
-└── img/            图片（暂时为空）
+├── index.html                  页面结构
+├── css/style.css               样式 + 手机适配
+├── img/                        图片（暂时为空）
+├── .github/workflows/deploy.yml 自动部署到 GitHub Pages
+├── .gitignore
+└── README.md
 ```
 
-## 我的 8 周目标
+## 已完成的 8 周目标
 
 - [x] 第 1 周：跑通「改代码 → 提交 → 上线」
-- [ ] 第 2 周：手机端不错位
+- [x] 第 2 周：375px 宽度下不换行（已实测 `scrollWidth=375`）
 - [ ] 第 4 周：做出成绩工具的静态版
 - [ ] 第 8 周：完整交付（网址 + README + 视频）
 
+## Git 提交记录
+
+```
+a86204a 细节：补正文首句后的全角空格，避免标点粘连
+5f004d1 加自动部署：push 到 main 后由 GitHub Actions 发布到 Pages
+b07c98b 手机适配：375px 宽度下不换行、按钮竖排
+aa5c7d6 加样式：深蓝配色、卡片布局、头像和按钮
+c576b23 建站：写下主页结构和自我介绍
+```
+
+## 怎么推到 GitHub（还需要你做一步）
+
+现在 `origin` 指向的是本地演示仓库 `E:\Projects\remote-demo.git`，用来先把 push 跑通。
+换成你自己的 GitHub 仓库，执行下面三行（把 `你的用户名` 换掉）：
+
+```bash
+cd /e/Projects/my-first-site
+git remote set-url origin https://github.com/你的用户名/my-first-site.git
+git push -u origin main
+```
+
+然后到 GitHub 仓库页：**Settings → Pages → Source 选 GitHub Actions**，等 1 分钟，网址就有了。
+
+第一次 push 会要求登录。弹窗里选 **Sign in with your browser**，用浏览器授权一次即可，之后不用再输。
+
+## 每天的日常（三条命令）
+
+```bash
+git add .
+git commit -m "一句话说明今天改了什么"
+git push
+```
+
 ## 更新记录
 
-- 2026-11-17：建站，跑通 Git 流程
+- 2026-11-17：建站、加样式、手机适配、配置自动部署，共 5 次提交
