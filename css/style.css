@@ -128,3 +128,49 @@ footer {
   font-size: 13px;
   padding: 32px 0;
 }
+
+/* ---------- 手机适配（375px 起） ---------- */
+@media (max-width: 960px) {
+  .hero-inner,
+  main {
+    width: 100%;
+  }
+
+  .hero-inner {
+    padding: 0 16px;
+  }
+
+  main {
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+
+  .card {
+    padding: 20px 18px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+    font-size: 30px;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}
