@@ -10,3 +10,6 @@ desktop.ini
 # 依赖与构建产物（以后可能会用到）
 node_modules/
 dist/
+
+# 本地辅助脚本，不入库
+*.bat

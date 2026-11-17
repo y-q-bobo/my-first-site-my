@@ -9,7 +9,7 @@
 ## 怎么打开
 
 - 本地：双击 `index.html`
-- 线上：推到 GitHub 并开启 Pages 后，访问 `https://<你的用户名>.github.io/my-first-site/`
+- 线上：推到 GitHub 并开启 Pages 后，访问 `https://y-q-bobo.github.io/my-first-site/`
 
 ## 目录
 
@@ -47,7 +47,7 @@ c576b23 建站：写下主页结构和自我介绍
 
 ```bash
 cd /e/Projects/my-first-site
-git remote set-url origin https://github.com/你的用户名/my-first-site.git
+git remote set-url origin https://github.com/y-q-bobo/my-first-site.git
 git push -u origin main
 ```
 
@@ -66,3 +66,19 @@ git push
 ## 更新记录
 
 - 2026-11-17：建站、加样式、手机适配、配置自动部署，共 5 次提交
+
+## 已经替你配好的部分
+
+- 远程 `origin` 已指向 `https://github.com/y-q-bobo/my-first-site.git`
+- 桌面/项目内的 `推送到GitHub.bat` 可一键推送（会弹浏览器授权）
+- `检查状态.bat` 可随时检查远程地址、提交历史和仓库是否已建
+
+## 你还需要做的两步
+
+1. 在 GitHub 建空仓库 `my-first-site`（不要勾 Add README）
+2. 双击 `推送到GitHub.bat`，浏览器弹出时点授权
+
+## 为什么这一步不能代做
+
+推送需要 GitHub 授权。机器的凭据助手是 `helper-selector`（Git Credential Manager），
+授权动作必须由账号本人在浏览器里确认；把 token 交给我也不建议，那等于交出账号写权限。
