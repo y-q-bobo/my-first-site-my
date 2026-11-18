@@ -9,12 +9,12 @@
 ## 怎么打开
 
 - 本地：双击 `index.html`
-- 线上：推到 GitHub 并开启 Pages 后，访问 `https://y-q-bobo.github.io/my-first-site/`
+- 线上：推到 GitHub 并开启 Pages 后，访问 `https://y-q-bobo.github.io/my-first-site-my/`
 
 ## 目录
 
 ```
-my-first-site/
+my-first-site-my/
 ├── index.html                  页面结构
 ├── css/style.css               样式 + 手机适配
 ├── img/                        图片（暂时为空）
@@ -47,7 +47,7 @@ c576b23 建站：写下主页结构和自我介绍
 
 ```bash
 cd /e/Projects/my-first-site
-git remote set-url origin https://github.com/y-q-bobo/my-first-site.git
+git remote set-url origin https://github.com/y-q-bobo/my-first-site-my.git
 git push -u origin main
 ```
 
@@ -69,7 +69,7 @@ git push
 
 ## 已经替你配好的部分
 
-- 远程 `origin` 已指向 `https://github.com/y-q-bobo/my-first-site.git`
+- 远程 `origin` 已指向 `https://github.com/y-q-bobo/my-first-site-my.git`
 - 桌面/项目内的 `推送到GitHub.bat` 可一键推送（会弹浏览器授权）
 - `检查状态.bat` 可随时检查远程地址、提交历史和仓库是否已建
 

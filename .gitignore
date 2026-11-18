@@ -7,9 +7,13 @@ desktop.ini
 .vscode/
 *.code-workspace
 
-# 依赖与构建产物（以后可能会用到）
+# 依赖与构建产物
 node_modules/
 dist/
 
-# 本地辅助脚本，不入库
+# 本地辅助脚本与临时记录（不属于网站本身）
 *.bat
+*.ps1
+sentinel.log
+下一步.md
+_local/
