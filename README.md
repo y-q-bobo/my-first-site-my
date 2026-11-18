@@ -1,5 +1,9 @@
 # my-first-site
 
+> ## 🌐 线上地址（已上线）
+> **https://yq-bobo-first-site.surge.sh**
+>
+> 第 1 周的交付物，2026-11-18 上线。
 我的第一个网址。做它的目的不是好看，是证明我能把东西从零做到上线。
 
 ## 这是什么
@@ -8,8 +12,9 @@
 
 ## 怎么打开
 
+- **线上（现在就能看）：https://yq-bobo-first-site.surge.sh**
 - 本地：双击 `index.html`
-- 线上：推到 GitHub 并开启 Pages 后，访问 `https://y-q-bobo.github.io/my-first-site-my/`
+- GitHub Pages：代码已推送，开启 Pages 后会多一个 `https://y-q-bobo.github.io/my-first-site-my/`
 
 ## 目录
 
